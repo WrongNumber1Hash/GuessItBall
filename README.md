@@ -1,4 +1,5 @@
-# psych_games
+# GuessItBall
+
 ⚠️ WARNING: This game involves psychological interaction. Please read the Disclaimer before playing or contributing.
 
 Games using emotion or psychology to engage players to interact with each other
