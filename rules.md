@@ -1,158 +1,180 @@
-# **TellUrFeelingz**
+# Using GenAI to review rules and structure
 
-*A social card game of emotions, stories, and strategy*
-**2–4 Players | Ages 13+ | 20–40 Minutes**
+A GenAI program organized the basic rules for me.
 
----
+## Summary
 
-## **Objective**
+*64-Step Football Strategy Game*
 
-Score the most points by collecting **Feelings Cards** and **Tokens** through storytelling, bluffing, and smart guessing.
+Official Ruleset (v1.0)
 
----
+1. Objective
 
-## **Components**
+- The offense attempts to advance the ball 10 steps in 4 downs.
+- The defense attempts to prevent this by correctly predicting plays.
 
-* **48 Feelings Cards**
+The game is played on a 64 × 20 grid playing field and is divided into four quarters.
 
-  * 6 Feeling Types:
+2. Playing Field
 
-    * Sad (Red)
-    * Happy (Green)
-    * Angry (Red)
-    * Love (Green)
-    * Frustrated (Yellow)
-    * Bored (Yellow)
+- The board is a grid:
 
-* **48 True/False Cards**
+ - 64 steps long (lengthwise). The side will be 1-64, and the top will be A-T.
 
-  * 24 True
-  * 24 False
+ - 20 steps wide (sideline to sideline)
 
-* **Tokens**
-* **Bank** (shared supply of tokens)
+  - The center square (step 32, middle width) is the starting position.
 
----
+  - Moving forward always means moving toward the opponent’s end zone.
 
-## **Setup**
+  - Lateral movement means moving left or right across the width of the board.
 
-1. Shuffle the Feelings Cards and deal them evenly to all players.
+### Out of Bounds
 
-   * Players form a face-down deck with their cards.
-   * Cards may not be rearranged.
-2. Give each player **3 True cards and 3 False cards**.
-3. Give each player an equal number of Tokens.
-4. Place the remaining Tokens in a shared bank.
+A player is out of bounds if they move off the board in any direction.
 
----
+  - If out of bounds occurs:
 
-## **Gameplay**
+  - The play immediately ends
 
-* Players take turns clockwise.
-* On your turn, flip the **top Feelings Card** from your deck and place it face up into a shared pile.
-* Cards are played strictly from the top of your deck.
-* Any cards you win are placed **face down at the bottom of your deck**.
+  - The piece is placed on the last legal square
 
----
+The down is still counted
 
-## **Faceoffs**
+3. Game Structure
 
-A **faceoff** occurs when two Feelings Cards in the pile match by **color or feeling type**.
+### Quarters
 
-* The player who played the most recent matching card is **Player A**.
-* The player whose card was matched is **Player B**.
+The game has 4 quarters
 
----
+- Each quarter ends when either condition is met:
 
-## **Faceoff Procedure**
+- 15 rounds are completed, OR
 
-### 1. Betting Phase
+- 10 minutes have elapsed
 
-* All players may place token bets on whether Player B’s story will be **True or False**.
-* Minimum bet is **1 token**.
-* Bets must be matched equally by at least one other player.
+Whichever occurs first ends the quarter
 
-### 2. Question & Story
+### Timer
 
-* Player A asks Player B:
+A game timer starts at the beginning of the game
 
-  > “When was the last time you felt [the matching feeling]?”
-* If both feelings differ, Player B chooses which one to answer.
-* Before telling the story, all players place one **True or False card face down**.
-* Player B tells a story.
+The timer pauses during timeouts
 
-  * Player B **may lie or tell the truth**.
+4. Downs & Drives
 
-### 3. Negotiation Phase
+Each drive consists of 4 downs
 
-After the story:
+- The offense must advance 10 forward steps within those 4 downs
 
-* Players may add to or subtract from bets, but any change must be matched.
-* Players may switch their True/False card only if another player matches the switch.
-* Players may offer Feelings Cards as incentives to encourage others to match a bet or switch.
-* If no betting impact occurs, players **other than Player A and Player B** may freely change their True/False card.
+- If successful, downs reset (new set of 4)
 
-When no further changes are made, all choices are locked.
+- If unsuccessful, possession changes (or reset per house rules)
 
----
+5. Timeouts
 
-## **Reveals & Resolution**
+Each team has 3 timeouts per game
 
-1. **Player A and Player B reveal their True/False cards.**
-2. Player B’s True/False card determines the **game truth**, regardless of the actual story.
-3. All players reveal their True/False cards for token resolution.
+- A timeout may be called at any time
 
-### Outcomes
+- Timeouts pause the game clock
 
-* If **Player A guessed correctly**, Player A wins **all Feelings Cards in the pile**.
-* If **Player A guessed incorrectly**, Player B wins **all Feelings Cards in the pile**.
-* All players who guessed correctly:
+Used timeouts do not return
 
-  * Split the won tokens evenly
-  * Gain **1 token from the bank**
+6. Play Selection
 
----
+Each down:
 
-## **End of Game**
+- Offense secretly chooses a play number
 
-The game ends immediately when **one player has no Feelings Cards left** in their deck.
+- Defense secretly chooses a number
 
----
+Both reveal simultaneously
 
-## **Scoring**
+- If the defense matches the offense’s number → matched result
 
-Each player totals their points:
+- If the defense does not match → successful result
 
-* **Feelings Cards:** 1 point each
-* **Tokens:** 1 point each
+7. Play Rules
 
-The player with the **highest total score** wins.
+### Play 1 – Power / Sweep
 
----
+*Defense chooses wrong:*
 
-## **Tie-Breaker**
+- Move 4 steps forward
 
-If two players tie for the highest score, play a tie-breaker:
+- May move up to 3 steps laterally (left or right)
 
-1. The tied players draw Feelings Cards one at a time from the pile, placing them face up.
-2. No betting is allowed.
-3. When a match occurs by color or feeling:
+*Defense matches:*
 
-   * A final faceoff is triggered
-   * Only the tied players participate
-   * True/False cards are used, but **no betting**
-4. The winner of this final faceoff wins the game.
+  - No movement
 
-If the pile runs out without a match, reshuffle the drawn cards and continue until a match occurs.
+### Play 2 – Interior Run
 
----
+*Defense chooses wrong:*
 
-## **Player Comfort**
+- Move 2 steps forward
 
-Players may answer questions at a surface level. The goal is fun, not pressure. Respect each other’s boundaries.
+*Defense matches Offense play choice:*
 
----
+- Move −2 steps backwards
 
-### **You’re Ready to Play**
+No lateral movement
 
-TellUrFeelingz is a game about reading people, not just cards. Bluff wisely, listen closely, and trust your instincts.
+### Play 3 – Speed / Positioning
+
+*Defense chooses wrong:*
+
+- Move 1 step forward
+
+- Move up to 3 steps laterally
+
+*Defense matches Offense play choice:*
+
+- Move −3 steps backwards
+
+No lateral movement
+
+### Play 4 – Breakaway Play (Available after 1st Quarter)
+
+*Defense chooses wrong:*
+
+- Move 5 steps forward
+
+*Defense matches Offense play choice:*
+
+- Move −4 steps backwards
+
+May move up to 2 steps laterally
+
+8. Lateral Movement Rules
+
+Lateral movement:
+
+- Is optional unless stated
+
+- Must remain on the board
+
+- May be taken before or after forward/backward movement
+
+Lateral steps do not count toward the 10-step advancement goal
+
+9. Winning & Progression (Optional)
+
+Suggested end conditions:
+
+- Highest total forward advancement after 4 quarters
+
+- First to reach opponent’s end zone
+
+Score-based system (touchdowns, safeties)
+
+10. Design Intent (Optional Note)
+
+Early game emphasizes reading tendencies
+
+Later quarters add risk and volatility
+
+Lateral movement introduces spatial strategy
+
+Clock and timeouts reward game management
