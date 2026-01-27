@@ -1,6 +1,3 @@
-# Using GenAI to review rules and structure
-
-A GenAI program organized the basic rules for me.
 
 ## Summary
 
