@@ -99,51 +99,51 @@ Both reveal simultaneously
 
 ### Play 1 – Power / Sweep
 
-- Defense wrong:
+*Defense chooses wrong:*
 
-	- Move 4 steps forward
+- Move 4 steps forward
 
-	- May move up to 3 steps laterally (left or right)
+- May move up to 3 steps laterally (left or right)
 
-- Defense matches:
+*Defense matches:*
 
 	- No movement
 
 ### Play 2 – Interior Run
 
-Defense wrong:
+*Defense chooses wrong:*
 
-Move 2 steps forward
+- Move 2 steps forward
 
-Defense matches:
+*Defense matches Offense play choice:*
 
-Move −2 steps forward
-
-No lateral movement
-
-Play 3 – Speed / Positioning
-
-Defense wrong:
-
-Move 1 step forward
-
-Move up to 3 steps laterally
-
-Defense matches:
-
-Move −3 steps forward
+- Move −2 steps backwards
 
 No lateral movement
 
-Play 4 – Breakaway Play (Available after 1st Quarter)
+### Play 3 – Speed / Positioning
 
-Defense wrong:
+*Defense chooses wrong:*
 
-Move 5 steps forward
+- Move 1 step forward
 
-Defense matches:
+- Move up to 3 steps laterally
 
-Move −4 steps forward
+*Defense matches Offense play choice:*
+
+- Move −3 steps backwards
+
+No lateral movement
+
+### Play 4 – Breakaway Play (Available after 1st Quarter)
+
+*Defense chooses wrong:*
+
+- Move 5 steps forward
+
+*Defense matches Offense play choice:*
+
+- Move −4 steps backwards
 
 May move up to 2 steps laterally
 
@@ -151,11 +151,11 @@ May move up to 2 steps laterally
 
 Lateral movement:
 
-Is optional unless stated
+- Is optional unless stated
 
-Must remain on the board
+- Must remain on the board
 
-May be taken before or after forward/backward movement
+- May be taken before or after forward/backward movement
 
 Lateral steps do not count toward the 10-step advancement goal
 
@@ -163,9 +163,9 @@ Lateral steps do not count toward the 10-step advancement goal
 
 Suggested end conditions:
 
-Highest total forward advancement after 4 quarters
+- Highest total forward advancement after 4 quarters
 
-First to reach opponent’s end zone
+- First to reach opponent’s end zone
 
 Score-based system (touchdowns, safeties)
 
