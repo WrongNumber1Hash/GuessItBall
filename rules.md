@@ -1,177 +1,429 @@
+# 📘 Official Rules
 
-## Summary
+## Turn-Based Grid Football
 
-*64-Step Football Strategy Game*
+---
 
-Official Ruleset (v1.0)
+## 1. The Board
 
-1. Objective
+* **Columns:** A–T
+* **Rows:** 1–64
+* **Goal Lines:**
 
-- The offense attempts to advance the ball 10 steps in 4 downs.
-- The defense attempts to prevent this by correctly predicting plays.
+  * One team scores at **Row 5**
+  * The opposing team scores at **Row 59**
 
-The game is played on a 64 × 20 grid playing field and is divided into four quarters.
+Each square represents **one step** of movement.
 
-2. Playing Field
+### Blocked Squares
 
-- The board is a grid:
+* Any square a play **ends on** becomes **blocked**
+* Blocked squares:
 
- - 64 steps long (lengthwise). The side will be 1-64, and the top will be A-T.
+  * Cannot be entered
+  * Cannot be passed through
+* End zones are exempt from blocking for scoring purposes
 
- - 20 steps wide (sideline to sideline)
+---
 
-  - The center square (step 32, middle width) is the starting position.
+## 2. Direction of Play
 
-  - Moving forward always means moving toward the opponent’s end zone.
+* Each team always drives toward the **opposite goal line**
+* Teams **switch ends** after **Quarter 1** and **Quarter 3**
+* On a **turnover**:
 
-  - Lateral movement means moving left or right across the width of the board.
+  * Ball stays where the turnover occurred
+  * **Direction of play reverses**
 
-### Out of Bounds
+---
 
-A player is out of bounds if they move off the board in any direction.
+## 3. Game Structure
 
-  - If out of bounds occurs:
+* **4 quarters**
+* **15 downs per quarter**
+* **2nd & 4th quarters:**
 
-  - The play immediately ends
+  * A **warning is announced** when **4 downs remain**
+* **Timeouts:** 3 per game
 
-  - The piece is placed on the last legal square
+  * A timeout causes the **next down not to count** toward the 15-down quarter limit
 
-The down is still counted
+---
 
-3. Game Structure
+## 4. Downs & First Downs
 
-### Quarters
+* Drives begin at **1st & 10**
+* A first down is achieved by gaining **10 forward steps**
+* Forward progress is measured from the start of the current set of downs
+* After a first down:
 
-The game has 4 quarters
+  * Downs reset to **1st & 10**
+  * A new line to gain is established
 
-- Each quarter ends when either condition is met:
+---
 
-- 15 rounds are completed, OR
+## 5. Turn Sequence (Per Down)
 
-- 10 minutes have elapsed
+1. Play is declared **“locked”**
+2. Both players secretly choose:
 
-Whichever occurs first ends the quarter
+   * A **Play** (1–4)
+   * An optional **Color** (Red / Black)
+3. Offense declares intended **path**:
 
-### Timer
+   * Lateral movement first
+   * Then forward/backward movement
+4. Plays are revealed
+5. Movement is resolved
+6. Blocking is applied
+7. Down advances (unless protected by timeout)
 
-A game timer starts at the beginning of the game
+---
 
-The timer pauses during timeouts
+## 6. Offensive Plays (Base Rules)
 
-4. Downs & Drives
+These rules apply **before** color or match modifiers.
 
-Each drive consists of 4 downs
+### 🟦 Play 1 — Power / Sweep
 
-- The offense must advance 10 forward steps within those 4 downs
+**Defense chooses wrong**
 
-- If successful, downs reset (new set of 4)
+* Move **+4 forward**
+* May move up to **3 lateral steps**
 
-- If unsuccessful, possession changes (or reset per house rules)
+**Defense matches play**
 
-5. Timeouts
+* **No forward or backward movement**
 
-Each team has 3 timeouts per game
+---
 
-- A timeout may be called at any time
+### 🟩 Play 2 — Interior Run
 
-- Timeouts pause the game clock
+**Defense chooses wrong**
 
-Used timeouts do not return
+* Move **+2 forward**
 
-6. Play Selection
+**Defense matches play**
 
-Each down:
+* Move **−2 backward**
 
-- Offense secretly chooses a play number
+* ❌ No lateral movement
 
-- Defense secretly chooses a number
+---
 
-Both reveal simultaneously
+### 🟨 Play 3 — Speed / Positioning
 
-- If the defense matches the offense’s number → matched result
+**Defense chooses wrong**
 
-- If the defense does not match → successful result
+* Move **+1 forward**
+* May move up to **3 lateral steps**
 
-7. Play Rules
+**Defense matches play**
 
-### Play 1 – Power / Sweep
+* Move **−3 backward**
+* ❌ No lateral movement
 
-*Defense chooses wrong:*
+---
 
-- Move 4 steps forward
+### 🟥 Play 4 — Breakaway Play
 
-- May move up to 3 steps laterally (left or right)
+*(Available after Quarter 1)*
 
-*Defense matches:*
+**Defense chooses wrong**
 
-  - No movement
+* Move **+5 forward**
 
-### Play 2 – Interior Run
+**Defense matches play**
 
-*Defense chooses wrong:*
+* Move **−4 backward**
 
-- Move 2 steps forward
+* May move up to **2 lateral steps**
 
-*Defense matches Offense play choice:*
+---
 
-- Move −2 steps backwards
+## 7. Match & Color Resolution
 
-No lateral movement
+After resolving the base play:
 
-### Play 3 – Speed / Positioning
+### ✅ Case A — No Match
 
-*Defense chooses wrong:*
+* Apply base result
+* **Add +2 forward steps**
 
-- Move 1 step forward
+---
 
-- Move up to 3 steps laterally
+### ✅ Case B — Play Match Only
 
-*Defense matches Offense play choice:*
+* Apply the **matched-play result**
+* **Add +2 forward steps**
+* No turnover check
 
-- Move −3 steps backwards
+---
 
-No lateral movement
+### 🔥 Case C — Color Match Only
 
-### Play 4 – Breakaway Play (Available after 1st Quarter)
+* Ignore the play’s base result entirely
+* Move **exactly +3 forward**
+* Both players choose a number **1–10**
+* If numbers match → **Turnover**
 
-*Defense chooses wrong:*
+---
 
-- Move 5 steps forward
+### ❌ Case D — Play + Color Match
 
-*Defense matches Offense play choice:*
+* **Immediate turnover**
+* Ball stays at the end of any allowed lateral movement
+* Direction of play reverses
 
-- Move −4 steps backwards
+---
 
-May move up to 2 steps laterally
+## 8. Movement Rules
 
-8. Lateral Movement Rules
+### Lateral Movement
 
-Lateral movement:
+* Lateral movement always occurs **before** forward/backward movement
+* Lateral paths **cannot enter or cross blocked squares**
 
-- Is optional unless stated
+### Lateral Reduction on Play-Number Match (NEW)
 
-- Must remain on the board
+* When the **defense correctly matches the play number**:
 
-- May be taken before or after forward/backward movement
+  * Lateral movement is still allowed **if the play normally allows it**
+  * The **maximum lateral distance** is:
 
-Lateral steps do not count toward the 10-step advancement goal
+> **(Original lateral allowance − 1)**
 
-9. Winning & Progression (Optional)
+Examples:
 
-Suggested end conditions:
+* Play 1: 3 → **2 lateral**
+* Play 3: 3 → **2 lateral**
+* Play 4: 2 → **1 lateral**
+* Play 2: 0 → **0 lateral**
 
-- Highest total forward advancement after 4 quarters
+---
 
-- First to reach opponent’s end zone
+### Forward / Backward Movement
 
-Score-based system (touchdowns, safeties)
+* Must follow declared direction of play
+* Cannot cross blocked squares
 
-10. Design Intent (Optional Note)
+If a declared path crosses a blocked square:
 
-Early game emphasizes reading tendencies
+* The path must be adjusted **before** resolution
 
-Later quarters add risk and volatility
+---
 
-Lateral movement introduces spatial strategy
+## 9. Kickoffs
 
-Clock and timeouts reward game management
+### Opening Kickoff
+
+1. Each player chooses **Heads or Tails**
+2. A virtual coin is flipped
+3. Winner chooses to **kick or receive**
+
+### Second Half
+
+* The player who **did not win** the opening kickoff chooses to kick or receive
+
+### Kickoff Rules
+
+* Kick travels **55 steps** from the kicking team’s goal line
+* Receiving team chooses:
+
+  * **Position:** Left / Center / Right
+  * **Color:** Yellow / Red / Green
+* Kicking team chooses the same
+
+### Return Resolution
+
+| Matches | Result                  |
+| ------- | ----------------------- |
+| 2       | 5 steps                 |
+| 1       | 10 steps                |
+| 0       | 15 steps + number check |
+
+* If 0 matches:
+
+  * Both players pick **1–10**
+  * Matching numbers = **Touchdown**
+* Final return square becomes **blocked**
+* Receiving team starts **1st down**
+
+### Lateral Kickoff Adjustment
+
+* If the **kicking team** chose Left or Right:
+
+  * Result shifts **5 steps opposite**
+* If the **receiving team** chose Left or Right:
+
+  * They shift **5 steps** in that direction
+* If movement goes out of bounds → play ends
+
+---
+
+## 10. Punts
+
+* Punt travels **20 steps** from the kicking team’s goal line
+* Uses the **same position/color matching system** as kickoffs
+* Final return square becomes **blocked**
+* Receiving team starts **1st down**
+
+---
+
+## 11. Touchbacks
+
+* If a kick or punt **travels past the end zone**:
+
+  * Automatic **touchback**
+* Ball is placed at:
+
+  * **Row 15, Column K**
+* If a punt enters but does not pass the end zone:
+
+  * Receiving team may declare **Touchback** after the result is known
+
+---
+
+## 12. Scoring
+
+* A touchdown occurs when:
+
+  * The ball enters the opponent’s end zone via movement, or
+  * An instant-touchdown number match occurs
+* After scoring:
+
+  * Proceed to kickoff
+
+---
+
+## 13. Winning the Game
+
+* Game ends after **4 quarters**
+* Winner is the player with the most touchdowns
+* Tiebreakers (if required) are defined by variants
+
+---
+
+### ✅ Status
+
+This document is the **canonical ruleset**. Variants may override sections but must reference this file.
+
+## 8. Lateral Movement Rules (Updated)
+
+Lateral movement represents horizontal movement across the field (left or right). Lateral steps are always declared **before** forward or backward movement is resolved.
+
+### 8.1 Base Lateral Allowances
+
+Lateral movement is only permitted if the chosen play explicitly allows it:
+
+* **Play 1 (Power / Sweep):** up to 3 lateral steps
+* **Play 3 (Speed / Positioning):** up to 3 lateral steps *(defense chooses wrong only)*
+* **Play 4 (Breakaway):** up to 2 lateral steps
+* **Play 2 (Interior Run):** no lateral movement allowed
+
+---
+
+### 8.2 Defense Matches Play Number — Lateral Reduction
+
+When the **defense correctly matches the offensive play number** (regardless of color match, unless a turnover applies):
+
+* Lateral movement is **still allowed if the play normally allows laterals**
+* The maximum allowed lateral steps are reduced by **1 step**
+
+> **Adjusted lateral allowance = Base lateral allowance − 1**
+
+This reduction is applied **before** the offense declares movement.
+
+**Examples:**
+
+* Play 1: 3 → **2** lateral steps
+* Play 4: 2 → **1** lateral step
+* Play 3: 3 → **2** lateral steps *(only if laterals are otherwise permitted)*
+
+If the adjusted allowance is reduced to **0**, no lateral movement may be taken.
+
+---
+
+### 8.3 Restrictions and Exceptions
+
+* If a play’s matched-play result explicitly forbids movement, that restriction still applies
+* **Play 2** never allows lateral movement
+* Lateral movement:
+
+  * Cannot pass through **blocked squares**
+  * Cannot go **out of bounds**
+  * Must be completed before forward or backward steps
+
+---
+
+### 8.4 Turnovers and Special Cases
+
+* On a **turnover** (play number + color match):
+
+  * Ball position is fixed at the turnover square
+  * Direction of play reverses
+  * Lateral movement does not occur unless explicitly allowed prior to the turnover rule
+
+* On **color-only matches**:
+
+  * Lateral rules are unaffected unless otherwise stated by the color rule
+
+---
+
+This section supersedes all previous lateral-movement clarifications.
+
+## Deprecated Rules (Version-Tagged)
+
+The following rules are deprecated and no longer apply to active gameplay. Each item includes the version in which it was deprecated for historical reference.
+
+---
+
+### D1 — Fixed Direction After Turnovers *(Deprecated v1.1)*
+
+* Ball previously continued toward the same goal line after a turnover.
+* **Replaced by:** Ball remains at turnover square; direction of play reverses.
+
+---
+
+### D2 — Permanent No-Lateral-on-Match Rule *(Deprecated v2.1)*
+
+* Defense matching the play number previously removed all lateral movement.
+* **Replaced by:** Lateral movement allowed if the play permits it, with maximum laterals reduced by 1.
+* **Exceptions:** Play 2 always forbids laterals; Play 3 matched-play case forbids laterals.
+
+---
+
+### D3 — Original Kickoff Return Distances *(Deprecated v1.9)*
+
+* Previous distances: 2 matches = 10, 1 match = 15, 0 matches = 20.
+* **Replaced by:** 5 / 10 / 15 steps with instant TD check on 0 matches.
+
+---
+
+### D4 — Kickoff Distance from Midfield *(Deprecated v1.4)*
+
+* Kickoffs were previously measured from midfield or prior ball position.
+* **Replaced by:** Kickoffs and punts measured from the kicking team’s goal line.
+
+---
+
+### D5 — No Quarter-End Warning *(Deprecated v2.2)*
+
+* Quarters previously ended with no advance notice.
+* **Replaced by:** 4-down warning before the end of the 2nd and 4th quarters.
+
+---
+
+### D6 — Implicit Lateral Resolution Order *(Deprecated v2.0)*
+
+* Order of lateral vs forward/backward movement was previously ambiguous.
+* **Replaced by:** Lateral movement is always resolved before forward or backward movement.
+
+---
+
+Deprecated rules are retained for historical reference only and must not be used in active play.
+
+
+
+
+
