@@ -2,12 +2,18 @@
 
 ---
 
-# 🏈 Turn-Based Grid Football Known as GuessItBall
+# 🏈 Turn-Based Grid Football Game
 
 A **turn-based, strategy football game** played on a grid.
 Players secretly choose plays, manage space, avoid blocked squares, and out-think their opponent across four quarters.
 
 This can be played by 2-6 players, with more players taking turns as coach, being able to deploy different plays (offense or defense) or customize their play results.
+
+🚀 Quick Start (Chat Setup)
+
+New to the game? Start with [Quick Start: Chat Setup](quick_start_new_chat.md).
+
+This one-page guide explains how to initialize a game in chat — coin toss, kickoff choice, play locking, starting orientation, and the first snap — so you can begin playing in under a minute, even without reading the full rules.
 
 ---
 
