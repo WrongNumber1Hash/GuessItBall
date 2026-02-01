@@ -114,3 +114,5 @@ The offense may now declare their first play.
 ---
 
 If a rule interaction is unclear during play, pause and consult the rules before continuing. Consistency matters more than speed.
+
+After reading this once, you can skip straight to SESSION_TEMPLATE.md for future games.

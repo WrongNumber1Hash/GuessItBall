@@ -15,6 +15,8 @@ New to the game? Start with [Quick Start: Chat Setup](quick_start_new_chat.md).
 
 This one-page guide explains how to initialize a game in chat — coin toss, kickoff choice, play locking, starting orientation, and the first snap — so you can begin playing in under a minute, even without reading the full rules.
 
+Starting a new game? Use SESSION_TEMPLATE.md to initialize a clean game in chat.
+
 ---
 
 ## 🧩 The Board
