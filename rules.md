@@ -374,23 +374,73 @@ When **Red** is chosen, movement follows pass mechanics that allow passing throu
 
 ---
 
-## 17. Incomplete Pass (Out of Bounds)
+# Rule 17: Incomplete Pass (Out of Bounds) - MODIFIED
 
-When **Red** (pass play) is chosen and the forward movement distance exceeds the distance to the goal line:
+When Red (pass play) is chosen and the forward movement distance would take the ball past the back of the end zone:
 
-* The pass is **incomplete and out of bounds**
-* Ball **returns to previous position**
-* Down is **consumed** (advance to next down, same position)
-* **No blocking** is applied
-* **No score** occurs
+## End Zone Definition
 
-**Example:**
+End zones span 5 rows:
+- **One end zone**: Rows 1-5 (goal line at Row 5)
+- **Other end zone**: Rows 59-64 (goal line at Row 59)
 
-* Ball at Row 6, goal at Row 5 (1 row away)
-* Play result: +7 forward movement
-* 7 > 1 → Pass incomplete
-* Ball remains at Row 6, advance to next down
+## Resolution
 
+### If the pass lands within the end zone (within the 5 rows):
+- **TOUCHDOWN** - The ball is in the end zone and scores
+
+### If the pass would go past the back of the end zone:
+- The pass is incomplete and out of bounds
+- Ball returns to previous position
+- Down is consumed (advance to next down, same position)
+- No blocking is applied
+- No score occurs
+
+## Examples
+
+### Example 1: Touchdown
+- Ball at Row 7, driving toward Row 5 (goal line)
+- Play result: +3 forward movement
+- 7 → 6 → 5 → 4 (lands at Row 4, within end zone Rows 1-5)
+- **Result: TOUCHDOWN**
+
+### Example 2: Incomplete Pass
+- Ball at Row 3, driving toward Row 5 (goal line)
+- Play result: +5 forward movement
+- 3 → 2 → 1 → 0 → -1 (would go past Row 1, the back of the end zone)
+- **Result: Incomplete pass, ball returns to Row 3**
+
+# Rule 18: Play Revelation Order (Human vs AI)
+
+When a human player is playing against an AI opponent:
+
+## Revelation Order
+
+1. Both players declare **"Play locked"** after secretly choosing their play
+2. **Human player reveals first**:
+   - Play number (1-4)
+   - Color selection (Red/Black or Yellow/Red/Green for kickoffs)
+   - Movement intention (lateral direction and timing)
+3. **AI player reveals second**:
+   - Play number
+   - Color selection
+   - Movement intention
+
+## Applies To
+
+This revelation order applies to all game situations:
+- **Regular offensive/defensive plays**
+- **Kickoffs** (position and color choices)
+- **Punts** (position and color choices)
+- **Number checks** (1-10 number selection during color-only matches)
+
+## Purpose
+
+This ensures fairness and transparency, allowing the human player to verify their choices are locked in before the AI reveals its selection, preventing any appearance of the AI adapting its choice based on the human's decision.
+
+## Note
+
+In human vs human games, players may use any mutually agreed upon revelation method, as long as both choices are locked before either is revealed.
 ---
 
 ## Deprecated Rules (Version-Tagged)
@@ -448,7 +498,7 @@ Deprecated rules are retained for historical reference only and must not be used
 
 This document is the **canonical ruleset** for Turn-Based Grid Football. Variants may override sections but must reference this file.
 
-**Version:** 3.0  
+**Version:** 3.1 
 **Last Updated:** February 2026
 
 
