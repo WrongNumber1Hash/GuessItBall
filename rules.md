@@ -441,6 +441,40 @@ This ensures fairness and transparency, allowing the human player to verify thei
 ## Note
 
 In human vs human games, players may use any mutually agreed upon revelation method, as long as both choices are locked before either is revealed.
+
+# Rule 19: Possession Downs & Turnover on Downs
+
+## Four Down System
+- Each possession begins at **1st & 10**
+- Teams have **4 downs** to gain 10 forward rows
+- If 10+ rows are gained, downs reset to **1st & 10** with a new line to gain
+- If the team fails to gain 10 rows after **4th down**, it's a **turnover on downs**
+  - Ball stays at current position
+  - Possession changes to the opposing team
+  - Direction of play reverses
+
+## Punting on 4th Down
+- A team may announce a **punt** on 4th down before play selection
+- If punting is not announced, normal play selection proceeds
+- Punt rules follow Rule 10 (20-step travel with position/color matching)
+
+# Rule 20: Quarter Time Limits
+
+## 15 Downs Per Quarter
+- Each quarter has a limit of **15 downs**
+- When 15 downs are completed, the quarter ends
+- **Possession does not change** at quarter end (except at halftime)
+- Teams switch ends after Quarter 1 and Quarter 3
+
+## Half & Quarter Transitions
+- **End of Quarter 1**: Teams switch ends, possession continues
+- **End of Quarter 2 (Halftime)**: 
+  - Half ends
+  - Quarter 3 begins with a **kickoff**
+  - Team that did not win opening toss chooses to kick or receive
+- **End of Quarter 3**: Teams switch ends, possession continues
+- **End of Quarter 4**: Game ends
+
 ---
 
 ## Deprecated Rules (Version-Tagged)
@@ -498,7 +532,7 @@ Deprecated rules are retained for historical reference only and must not be used
 
 This document is the **canonical ruleset** for Turn-Based Grid Football. Variants may override sections but must reference this file.
 
-**Version:** 3.1 
+**Version:** 3.2
 **Last Updated:** February 2026
 
 
