@@ -61,3 +61,59 @@ If the defense matches the color and the number, then there is a chance for an i
 > These are optional rules for adding some complexity.
 
 
+# **GuesItBall — Pen and Paper**
+
+First player to 60 pts wins
+
+## Materials
+
+- Pencil or Pen
+
+- Paper
+
+## Player Roles
+
+* 2 - 6 Players
+* One Player is also the Bookie, who tracks tokens and bets, and the Bank. They are a scribe but they get 1 token for performing the task.
+
+Players can form teams and rotate the position of coach, choosing the plays each turn. 
+
+## Points-to-Plays Mapping
+
+You can assign any point values, as long as each player or team of players agree on the values relating to plays.
+
+### Number & Face Cards
+
+| Points | Play           | Description                                           |
+| ------ | -------------- | ----------------------------------------------------- |
+| 3      | Play #1        | Play 1 – Power / Sweep                                |
+| 2      | Play #2        | Play 2 – Interior Run                                 |
+| 4      | Play #3        | Play 3 – Speed / Positioning                          |
+| 5      | Play #4        | Play 4 – Breakaway Play                               |
+
+## Optional Depth Rules (Recommended)
+
+These rules add flavor but can be ignored for simpler play.
+
+### Play Color (Red / Black)
+
+| Color | Meaning  | Example Use                                         |
+| ----- | -------- | --------------------------------------------------- |
+| Red   | **Pass** | The Offense chooses a pass play. To stop the play, the Defense must pick the number and the color. |
+| Black | **Run**  | The Offense chooses a running play. To stop the play, the Defense must pick the number and the color. |
+
+## Downs
+
+5 downs per Quarter
+
+## Special Rules
+
+Play #4 can only be played after Quarter 1
+
+Each Player starts at 0 points
+
+If a player punts, they receive 4 points and possession passes to the opposing team
+
+
+
+

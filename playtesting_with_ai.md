@@ -1,85 +1,30 @@
-# playtesting_with_ai.md
+# Playtesting with Chatbots
 
 --
 
-Before we kick off, we just need to lock **a few setup details** so the game runs cleanly in chat. I’ll keep this tight.
+| Chatbot       | Developer/Provider        | Notes/Purpose for Testing |
+|---------------|---------------------------|---------------------------|
+| Copilot       | Microsoft                 | AI companion with reasoning, search, and creative tools |
+| Gemini        | Google DeepMind           | Conversational AI with multimodal capabilities |
+| ChatGPT       | OpenAI                    | Widely used chatbot with strong natural language generation |
+| Claude        | Anthropic                 | Focuses on safety and constitutional AI principles |
+| Character AI  | Character.AI              | Specializes in roleplay and personality-driven interactions |
+| Grok          | xAI (Elon Musk’s company) | Designed for humor, wit, and edgy conversational style |
 
-### Let’s confirm these 5 things:
+Copilot suggested 3 more and added pros and cons
 
-1. **Who starts on offense?**
-
-   * You offense / me defense
-   * or me offense / you defense
-
-2. **Win condition** (pick one for now):
-
-   * First to reach the opponent’s end zone
-   * OR highest total forward advancement after 4 quarters
-
-3. **Quarter timing in chat**
-   Since real-time minutes are messy here, I suggest:
-
-   * Each quarter = **15 rounds only** (ignore the 10-minute rule)
-     ✔️ Unless you want something different.
-
-4. **Play secrecy method**
-   To keep choices secret, we can do:
-
-   * Both type: `Play locked`
-   * Then reveal simultaneously in the next message
-     (This works really well in turn-based chat.)
-
-5. **Starting orientation**
-
-   * Starting square confirmed as **(32, center width)**
-   * Forward direction = increasing step numbers (toward 64)
-
-If you reply with:
-
-* Offense/Defense choice
-* Win condition
-* Any tweaks
-
-…I’ll set up the **official game state** and we’ll snap the ball on **Down 1, Quarter 1** 🏈🔥
-
-Got it — **you’re on offense** 🏈
-I’m on defense.
+| Chatbot       | Developer/Provider        | Pros (Strengths)                                                                 | Cons (Limitations)                                                             |
+|---------------|---------------------------|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Copilot       | Microsoft                 | Strong reasoning, search integration, creative tools; adaptable conversation modes | Less focused on roleplay; may feel more utilitarian than personality-driven     |
+| Gemini        | Google DeepMind           | Multimodal (text, image, code); advanced reasoning; broad knowledge base           | Still evolving in personality depth; may be less playful in casual scenarios    |
+| ChatGPT       | OpenAI                    | Widely adopted; versatile across tasks; strong natural language generation         | Can sometimes produce verbose or generic responses; roleplay less nuanced       |
+| Claude        | Anthropic                 | Safety-focused; constitutional AI principles; coherent long-form reasoning         | Conservative in tone; may avoid edgy or humorous dialogue                      |
+| Character AI  | Character.AI              | Excellent for roleplay; customizable personalities; immersive character dialogue   | Weaker factual grounding; less reliable for knowledge-intensive tasks           |
+| Grok          | xAI (Elon Musk’s company) | Witty, humorous, edgy conversational style; entertaining in playful contexts       | Humor can be hit-or-miss; less suited for serious or structured interactions    |
+| Perplexity    | Perplexity AI             | Fact-grounded answers; verified sources; strong for knowledge retrieval             | Less personality-driven; limited creativity in roleplay-heavy scenarios         |
+| Pi            | Inflection AI             | Empathetic, supportive tone; excels in emotional or character-driven dialogue       | Less technical depth; weaker in structured reasoning or factual precision       |
+| Jasper Chat   | Jasper AI                 | Tailored for creative writing, marketing, storytelling; strong narrative generation | Narrower focus; less versatile outside creative or content-driven contexts      |
 
 ---
 
-## ✅ Game State Initialized
-
-**Quarter:** 1
-**Round:** 1
-**Down:** 1 of 4
-**Drive Progress:** 0 / 10
-**Ball Position:** **(32, K)**
-**Play 4:** ❌ Locked (available starting Quarter 2)
-**Timeouts:** You 3 | Me 3
-
-### 📒 Position Log
-
-* Start: **(32, K)**
-
----
-
-## 🔐 Play Selection Protocol (Locked In)
-
-* We’ll use **simultaneous reveal**:
-
-  1. You choose a play (1–3)
-  2. I choose a defensive number (1–3)
-  3. We both type **“Play locked”**
-  4. Next message: **reveal**
-
----
-
-### 👉 When ready:
-
-Type **“Play locked”**
-(That signals your play is chosen. I’ll do the same, then we reveal.)
-
-Down 1. Ball is live. Let’s see if I can read you 😏
-
----
-
+Use the playtesting to test different rules, and flow of play.
