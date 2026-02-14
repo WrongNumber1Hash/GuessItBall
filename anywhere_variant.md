@@ -76,6 +76,12 @@ First player to 60 pts wins
 * 2 - 6 Players
 * One Player is also the Bookie, who tracks tokens and bets, and the Bank. They are a scribe but they get 1 token for performing the task.
 
+If you play in teams, then each person can take a different role
+
+* Head coach - Decides Play Packages
+* Offensive Coach - Calls offensive plays
+* Defensive Coach - Calls defensive plays
+
 Players can form teams and rotate the position of coach, choosing the plays each turn. 
 
 ## Points-to-Plays Mapping
@@ -104,6 +110,8 @@ These rules add flavor but can be ignored for simpler play.
 
 ## Downs
 
+3 downs per possession
+
 5 downs per Quarter
 
 ## Special Rules
@@ -112,8 +120,13 @@ Play #4 can only be played after Quarter 1
 
 Each Player starts at 0 points
 
+## Punt
+
 If a player punts, they receive 4 points and possession passes to the opposing team
 
+## Kickoff
+
+If a player kicks off, they receive 3 points. If a player receives, they receive 1 point.
 
 
 
