@@ -16,12 +16,13 @@
 
 * 2 - 6 Players
 * One Player is also the Bookie, who tracks tokens and bets, and the Bank. They are a scribe but they get 1 token for performing the task.
+* Players start with 100
 
 Players can form teams and rotate the position of coach, choosing the plays each turn. 
 
 ## Card-to-Plays Mapping
 
-You can use any cards, as long as each player or team of players agree on the values for the cards relating to plays.
+You can use any cards, as long as each player or team of players agree on the values for the cards relating to plays. You can also call out choices instead of using cards. The human player (in case of playing AI) always calls out first, after both sides have locked their play choices. 
 
 ### Number & Face Cards
 
@@ -63,7 +64,7 @@ If the defense matches the color and the number, then there is a chance for an i
 
 # **GuesItBall — Pen and Paper**
 
-First player to 60 pts wins
+First player to 45 pts wins
 
 ## Materials
 
@@ -90,12 +91,12 @@ You can assign any point values, as long as each player or team of players agree
 
 ### Number & Face Cards
 
-| Points | Play           | Description                                           |
-| ------ | -------------- | ----------------------------------------------------- |
-| 3      | Play #1        | Play 1 – Power / Sweep                                |
-| 2      | Play #2        | Play 2 – Interior Run                                 |
-| 4      | Play #3        | Play 3 – Speed / Positioning                          |
-| 5      | Play #4        | Play 4 – Breakaway Play                               |
+| Points | Play           | Description                     | Cost in Tokens |
+| ------ | -------------- | ------------------------------- | -------------- |
+| 3      | Play #1        | Play 1 – Power / Sweep          | 2              |
+| 2      | Play #2        | Play 2 – Interior Run           | 1              |
+| 4      | Play #3        | Play 3 – Speed / Positioning    | 3              |
+| 5      | Play #4        | Play 4 – Breakaway Play         | 4              |
 
 ## Optional Depth Rules (Recommended)
 

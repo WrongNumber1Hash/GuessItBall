@@ -1,5 +1,7 @@
 ## 6a. Option Plays (Rules)
 
+Opal is a package of plays which have a Screen Pass, Forward Pass, and Power Run. The range of movement is +2, +5 and +10 steps.
+
 These rules apply **before** color or match modifiers.
 
 ### 🟦 Play 1 — Screen Pass (Red)
