@@ -21,15 +21,36 @@ Learning about strategy and how the opposing player thinks is the name of the ga
 
 ## What Kind of Game is It?
 
-
 It is based on a sport, American football, but can be adapted for any sport involving a ball and field, where the aim is to score a goal. GuessIt ball aims to have two players create strategies, and guess which plays will allow them to score. The psychology is a part of the game, in that thinking of the opponent's strategy and choices helps a player decide their choices.
+
+1. Players can play against a human player or an AI player. 
+2. Players flip a coin to choose to kick off or to receive.
+3. Players choose a story card before the start of each quarter to see what game conditions will be. 
+4. Players on Offense take 4 Offense Play Cards and 1 set of 2 color cards.
+5. Players on Defense take 4 Defense Play Cards and 1 set of 2 color cards.
+6. Players use a pencil (or pen) and scratch paper to diagram plays
+
+## Game Components
+
+10 Story Cards
+1 Notebook
+10 sets of 4x Play Cards
+2 sets of 2x Color Cards
+1 Board
+2 Piece of Scratch Paper
+2 Pencils
 
 ## Sample of Play
 
-Players can play against a human player or an AI player. 
-
 Human Player
 --
+Human Players declare simultaneously by putting down cards, can flipping them over at the same time.
+
+1. Human players choose play cards secretly along with color cards.
+2. Human players diagram 1 of 5 play choices [|_ | _| -| |-]
+3. When both human players are ready, they flip over their chosen Play card and color card.
+4. 
+
 
 ### Sample Play 1 — Standard Offensive Play (Defense Chooses Wrong)
 
@@ -67,16 +88,6 @@ Human Player
 ## Why Play This Game?
 
 It can be a fun way to plan a strategy to win the game, and some of it will depend on reading your opponent's choices! With only 3 or 4 choices each round, how fast can you as a coach decide the plays that will move the ball. With a larger group of people, it becomes a team game where 1 person can be the Offense coach, and 1 person can be the Defense coach, and another person can be the Head coach.
-
-## Game Components
-
-1 Story Card
-1 Notebook
-4 Play Cards
-1 Coin 
-2 Color Cards
-1 Board
-1 Playing Field
 
 ## Designed by
 
