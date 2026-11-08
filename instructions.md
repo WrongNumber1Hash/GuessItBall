@@ -29,16 +29,23 @@ It is based on a sport, American football, but can be adapted for any sport invo
 4. Players on Offense take 4 Offense Play Cards and 1 set of 2 color cards.
 5. Players on Defense take 4 Defense Play Cards and 1 set of 2 color cards.
 6. Players use a pencil (or pen) and scratch paper to diagram plays
+7. There is an optional betting feature, where players can place bets. A player can act as the bookie or the AI can. Players place bets at the start of the turn and they pay out after the results are announced.
 
 ## Game Components
 
-10 Story Cards
-1 Notebook
-10 sets of 4x Play Cards
-2 sets of 2x Color Cards
-1 Board
-2 Piece of Scratch Paper
-2 Pencils
+- 10 Story Cards
+- 1 Notebook
+- 10 sets of 4x Play Cards
+- 2 sets of 2x Color Cards
+- 2 sets of 3x Direction Cards
+- 2 sets of 2x Hint Cards
+- 1 Board
+- 2 Piece of Scratch Paper
+- 2 Pencils/pens
+
+**Optional:**
+Money tokens for betting
+A betting board for the bookie
 
 ## Sample of Play
 
@@ -49,7 +56,6 @@ Human Players declare simultaneously by putting down cards, can flipping them ov
 1. Human players choose play cards secretly along with color cards.
 2. Human players diagram 1 of 5 play choices [|_ | _| -| |-]
 3. When both human players are ready, they flip over their chosen Play card and color card.
-4. 
 
 
 ### Sample Play 1 — Standard Offensive Play (Defense Chooses Wrong)

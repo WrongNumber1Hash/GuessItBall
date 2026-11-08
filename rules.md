@@ -64,17 +64,23 @@ Each square represents **one step** of movement.
 # **5. Turn Sequence (Per Down)**  
 *(Updated in v3.3 for Play Packages)*
 
-1. Play is declared **"locked"**  
-2. Both players secretly choose:  
-   * A **Play Number** from their **current Play Package**  
-   * An optional **Color** (Red / Black)  
-3. Offense declares intended **path**:  
-   * Lateral movement first (unless specified "after")  
-   * Then forward/backward movement  
-4. Plays are revealed  
-5. Movement is resolved  
-6. Blocking is applied  
+1. Play is declared **"locked"**. *Players can place bets with the bookie.*
+2. Both players secretly choose:
+   * A **Play** (1–4). The offensive player can change out the play set but must call out the name of the play package (set of 4 plays). Defense has a choice of changing out their play package.
+   * An optional **Color** (Red / Black)
+   * Direction of the play (Left / Center / Right)
+   * Offensive Player puts 3 Play cards face down (1 true / 2 fake). The down side is the play number, the upside is the diagram of the play or direction.
+   * Defensive Player puts 3 Play cards face down (1 true / 2 fake). The down side is the play number, the upside is the diagram of the play or direction.
+3. If no cards, then both players write down the plays on scratch paper.
+   * Offense / Defense writes diagram/path of play
+   * Play number
+   * Specify direction of play (left / center/ right)
+   * Then forward/backward movement
+4. Plays are revealed
+5. Movement is resolved
+6. Blocking is applied
 7. Down advances (unless protected by timeout)
+8. *Bets are paid out if betting rules allowed.*
 
 ---
 
@@ -371,7 +377,7 @@ Each square represents **one step** of movement.
 
 ## 5. Turn Sequence (Per Down)
 
-1. Play is declared **"locked"**
+1. Play is declared **"locked"**.  *Players can place bets with the bookie.*
 2. Both players secretly choose:
    * A **Play** (1–4)
    * An optional **Color** (Red / Black)
@@ -382,6 +388,7 @@ Each square represents **one step** of movement.
 5. Movement is resolved
 6. Blocking is applied
 7. Down advances (unless protected by timeout)
+8. *Bets are paid out if betting rules allowed.*
 
 ---
 
@@ -729,7 +736,7 @@ When a human player is playing against an AI opponent:
 
 ## Revelation Order
 
-1. Both players declare **"Play locked"** after secretly choosing their play
+1. Both players declare **"Play locked"** after secretly choosing their play.  *Players can place bets with the bookie.*  
 2. **Human player reveals first**:
    - Play number (1-4)
    - Color selection (Red/Black or Yellow/Red/Green for kickoffs)
@@ -738,6 +745,7 @@ When a human player is playing against an AI opponent:
    - Play number
    - Color selection
    - Movement intention
+4. *Bets are paid out if betting rules allowed.*
 
 ## Applies To
 
@@ -909,17 +917,23 @@ Each square represents **one step** of movement.
 
 ## 5. Turn Sequence (Per Down)
 
-1. Play is declared **"locked"**
+1. Play is declared **"locked"**. *Players can place bets with the bookie.*
 2. Both players secretly choose:
-   * A **Play** (1–4)
+   * A **Play** (1–4). The offensive player can change out the play set but must call out the name of the play package (set of 4 plays). Defense has a choice of changing out their play package.
    * An optional **Color** (Red / Black)
-3. Offense declares intended **path**:
-   * Lateral movement first (unless specified "after")
+   * Direction of the play (Left / Center / Right)
+   * Offensive Player puts 3 Play cards face down (1 true / 2 fake). The down side is the play number, the upside is the diagram of the play or direction.
+   * Defensive Player puts 3 Play cards face down (1 true / 2 fake). The down side is the play number, the upside is the diagram of the play or direction.
+3. If no cards, then both players write down the plays on scratch paper.
+   * Offense / Defense writes diagram/path of play
+   * Play number
+   * Specify direction of play (left / center/ right)
    * Then forward/backward movement
 4. Plays are revealed
 5. Movement is resolved
 6. Blocking is applied
 7. Down advances (unless protected by timeout)
+8. *Bets are paid out if betting rules allowed.*
 
 ---
 
@@ -1267,7 +1281,7 @@ When a human player is playing against an AI opponent:
 
 ## Revelation Order
 
-1. Both players declare **"Play locked"** after secretly choosing their play
+1. Both players declare **"Play locked"** after secretly choosing their play. *Players place their bets on the play outcome. AI acts as bookie.*
 2. **Human player reveals first**:
    - Play number (1-4)
    - Color selection (Red/Black or Yellow/Red/Green for kickoffs)
@@ -1276,6 +1290,7 @@ When a human player is playing against an AI opponent:
    - Play number
    - Color selection
    - Movement intention
+4. Bookie pays out on the bets.
 
 ## Applies To
 
@@ -1383,8 +1398,8 @@ Deprecated rules are retained for historical reference only and must not be used
 
 This document is the **canonical ruleset** for Turn-Based Grid Football. Variants may override sections but must reference this file.
 
-**Version:** 3.2
-**Last Updated:** February 2026
+**Version:** 3.2.1
+**Last Updated:** May 17, 2026
 
 
 

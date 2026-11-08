@@ -7,9 +7,21 @@
 A **turn-based, strategy football game** played on a grid.
 Players secretly choose plays, manage space, avoid blocked squares, and out-think their opponent across four quarters.
 
+I have released a browser-based version of the game, made with AI tools.
+
 This can be played by 2-6 players, with more players taking turns as coach, being able to deploy different plays (offense or defense) or customize their play results.
 
-🚀 Quick Start (Chat Setup)
+## Different Versions of the Game
+
+1. Board Game
+2. Card Game
+3. Finger/Hand signals Game
+4. Browser-based game played against AI Player
+5. Browser-based game played against a Human Player
+6. Dialogue-based game played against AI Player
+
+
+🚀 Quick Start (Chat Setup) for Board Game
 
 New to the game? Start with [Quick Start: Chat Setup](quick_start_new_chat.md).
 
@@ -131,7 +143,7 @@ Feedback, testing, and variants are welcome.
 
 Games using emotion or psychology to engage players to interact with each other
 
-The second game is *GuessItBall*, a game for between 2-6 people. Goal is to gain the most total yardage and/or points by the end of the game. Variants of the game without cards, and using different materials will also be posted and updated. This is based on the rules for American football, but have been customized. 
+The game is *GuessItBall*, a game for between 2-6 people. Goal is to gain the most total yardage and/or points by the end of the game. Variants of the game without cards, and using different materials will also be posted and updated. This is based on the rules for American football, but have been customized. 
 
 Players can modify the game by adding or removing rules, creating their own rules, or customizing parts to fit their own visions for the game. I will add an Anywhere variant that uses common playing cards as substitutes for the choosing the play number, and tokens for betting. There is an optional Bookie role to keep track of bets, tokens and the Bank.
 

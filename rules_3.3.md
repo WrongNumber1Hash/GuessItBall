@@ -59,7 +59,7 @@ Each square represents **one step** of movement.
 
 ## 5. Turn Sequence (Per Down)
 
-1. Play is declared **"locked"**
+1. Play is declared **"locked"**. *Players can place bets with the bookie.*  
 2. Both players secretly choose:
    * A **Play** (1–4)
    * An optional **Color** (Red / Black)
@@ -70,6 +70,7 @@ Each square represents **one step** of movement.
 5. Movement is resolved
 6. Blocking is applied
 7. Down advances (unless protected by timeout)
+8. *Bets are paid out if betting rules allowed.*
 
 ---
 
@@ -417,7 +418,7 @@ When a human player is playing against an AI opponent:
 
 ## Revelation Order
 
-1. Both players declare **"Play locked"** after secretly choosing their play
+1. Both players declare **"Play locked"** after secretly choosing their play. *Players can place bets with the bookie.*  
 2. **Human player reveals first**:
    - Play number (1-4)
    - Color selection (Red/Black or Yellow/Red/Green for kickoffs)
@@ -426,6 +427,7 @@ When a human player is playing against an AI opponent:
    - Play number
    - Color selection
    - Movement intention
+4. *Bets are paid out if betting rules allowed.*
 
 ## Applies To
 
@@ -535,4 +537,7 @@ This document is the **canonical ruleset** for Turn-Based Grid Football. Variant
 
 **Version:** 3.3
 **Last Updated:** February 2026
+**Notes** 
+
+Version 3.2.1 was updated with direction and cards to be played. This will add to the results of the play. It is an optional variable for players. 
 

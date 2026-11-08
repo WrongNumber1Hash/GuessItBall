@@ -1,5 +1,7 @@
 # Grid Football Play Sets - 10 Formations
 
+## Offensive Plays
+
 ## Set 1: I-Formation
 **Formation Diagram:**
 
@@ -606,7 +608,7 @@
 
 ---
 
-## Summary Table
+## Offensive Play Summary Table
 
 | Set | Name | Play 1 (Run) | Play 2 (Run) | Play 3 (Pass) | Play 4 (Pass) | Range |
 |-----|------|-------------|-------------|--------------|--------------|-------|
@@ -622,3 +624,80 @@
 | 10 | Trips | Pitch Sweep (10) | Blast Run (5) | Flood Concept (9) | Wheel Route (14) | 6-18 |
 
 Each set maintains the game balance with 2 run plays (Black) and 2 pass plays (Red), covering the full strategic range from conservative ground attacks to explosive deep shots!
+
+## Defensive Sets
+
+| Def Set | Name          | Coverage/Front      | Counters Offensive Sets | Defensive Focus             |
+| ------- | ------------- | ------------------- | ----------------------- | --------------------------- |
+| 1       | 4-4 Stack     | 8-man box / Cover 3 | I-Formation, Wishbone   | Stop power runs and sweeps  |
+| 2       | Nickel Blitz  | Nickel / Man Blitz  | Shotgun Spread, Trips   | Pressure quick passing game |
+| 3       | Bear Front    | 46 Bear / Cover 1   | Pro Set, Single Wing    | Stuff inside runs           |
+| 4       | Prevent Shell | 3 Deep / 4 Under    | Empty, Wildcat          | Eliminate deep shots        |
+
+### Defensive Plays (1-40)
+
+**Plays (1-10)** 4-4 Stack
+
+| #  | Play Name         | Type | Best Against       | Range |
+| -- | ----------------- | ---- | ------------------ | ----- |
+| 1  | Edge Contain      | Run  | Power Sweep        | 4-8   |
+| 2  | A-Gap Crash       | Run  | Dive / FB Plunge   | 2-5   |
+| 3  | Hook Zone Clamp   | Pass | Play Action        | 6-12  |
+| 4  | Deep Safety Shade | Pass | Deep Shot          | 10-18 |
+| 5  | Pitch Force       | Run  | Option Pitch       | 5-10  |
+| 6  | Sweep Pursuit     | Run  | Jet Sweep          | 5-9   |
+| 7  | QB Spy Green      | Pass | Bootleg / Roll Out | 6-11  |
+| 8  | Boundary Blitz    | Pass | Corner Route       | 8-14  |
+| 9  | Goal Line Pinch   | Run  | Wildcat Dive       | 1-4   |
+| 10 | Cover 3 Cloud     | Pass | Flood Concept      | 8-15  |
+
+
+**Plays (11-20)** Nickle Blitz
+
+| #  | Play Name          | Type | Best Against    | Range |
+| -- | ------------------ | ---- | --------------- | ----- |
+| 11 | Slot Corner Blitz  | Pass | Quick Slant     | 4-8   |
+| 12 | Double A-Gap Mug   | Run  | Draw / QB Draw  | 3-7   |
+| 13 | Robber Coverage    | Pass | Crossing Routes | 6-10  |
+| 14 | Deep Quarters      | Pass | Four Verticals  | 12-18 |
+| 15 | Contain Spy        | Run  | Read Option     | 5-9   |
+| 16 | Edge Fire Zone     | Pass | Roll Out        | 7-13  |
+| 17 | Wheel Match        | Pass | Wheel Route     | 9-14  |
+| 18 | Trips Rotation     | Pass | Flood Concept   | 8-13  |
+| 19 | Delayed Mike Blitz | Run  | Blast Run       | 3-6   |
+| 20 | Prevent Blitz Peel | Pass | Hail Mary       | 15-20 |
+
+**Plays (21-30)** Bear Front
+
+| #  | Play Name          | Type | Best Against                     | Range |
+| -- | ------------------ | ---- | -------------------------------- | ----- |
+| 21 | Nose Stack Crush   | Run  | Inside Zone                      | 3-6   |
+| 22 | Strong Edge Spill  | Run  | Toss Play                        | 5-8   |
+| 23 | Tight End Jam      | Pass | TE Seam                          | 8-12  |
+| 24 | Single High Lock   | Pass | Go Route                         | 10-16 |
+| 25 | Heavy Box Crash    | Run  | Power Run                        | 4-7   |
+| 26 | Counter Read Fill  | Run  | Counter Trey                     | 4-8   |
+| 27 | Jump Pass Alert    | Pass | Jump Pass                        | 5-9   |
+| 28 | Trick Play Contain | Pass | Flea Flicker / Statue of Liberty | 10-15 |
+| 29 | Wildcat Edge Cage  | Run  | Direct Snap                      | 4-9   |
+| 30 | Safety Hammer      | Pass | Trick Pass                       | 7-13  |
+
+**Plays (31-40)** Prevent Shell
+
+| #  | Play Name              | Type | Best Against            | Range |
+| -- | ---------------------- | ---- | ----------------------- | ----- |
+| 31 | Deep Half Protect      | Pass | Wildcat Bomb            | 12-20 |
+| 32 | Sideline Funnel        | Pass | Go Route / Corner Route | 10-16 |
+| 33 | QB Contain Spy         | Run  | QB Sneak / QB Draw      | 2-6   |
+| 34 | Soft Zone Trap         | Pass | Screen                  | 5-9   |
+| 35 | Triple Safety Umbrella | Pass | Four Verticals          | 14-20 |
+| 36 | Motion Check           | Run  | Jet Sweep / Pitch Sweep | 5-10  |
+| 37 | Play Action Read       | Pass | Play Action             | 7-12  |
+| 38 | Red Zone Clamp         | Run  | Blast Run / Dive        | 2-5   |
+| 39 | Deep Middle Erase      | Pass | Post Route              | 10-15 |
+| 40 | Last Stand Prevent     | Pass | Hail Mary / Deep Shot   | 15-25 |
+
+
+
+
+

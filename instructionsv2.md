@@ -32,13 +32,17 @@ It is based on a sport, American football, but can be adapted for any sport invo
 
 ## Game Components
 
-10 Story Cards
-1 Notebook
-10 sets of 4x Play Cards (Play Cards have a play on one side and a visual hint on the)
-2 sets of 2x Color Cards
-1 Board
-2 Piece of Scratch Paper
-2 Pencils
+- 10 Story Cards
+- 1 Notebook
+- 10 sets of 4x Play Cards (Play Cards have a play on one side and a visual hint on the other)
+- 2 sets of 2x Color Cards
+- 1 Board
+- 2 Piece of Scratch Paper
+- 2 Pencils
+
+**Optional:**
+Money tokens for betting
+A betting board for the bookie
 
 ## Sample of Play
 
@@ -140,9 +144,6 @@ This is a selection of 3 offensive plays and defensive notes, marked by 2 pass p
 
 ### 10 Story Cards
 
-
-# Quarter Event Cards
-
 | Card Name | Flavor Text | Effect |
 |-----------|-------------|--------|
 | **Home Crowd Momentum** | *The stadium is roaring.* | First successful offensive play each quarter gains +1 point. |
@@ -156,9 +157,45 @@ This is a selection of 3 offensive plays and defensive notes, marked by 2 pass p
 | **Short Week** | *Fatigue sets in.* | Each team must discard 1 Timeout for this quarter (if available). |
 | **Big Play Expectations** | *The crowd wants excitement.* | If Play #4 is not used by the offense this quarter, they lose 1 point. |
 
-1 Notebook
-10 sets of 4x Play Cards (Play Cards have a play on one side and a visual hint on the)
-2 sets of 2x Color Cards
-1 Board
+### 1 Notebook
+
+Use the pre-printed notebook page or create your own to take down notes for play calling.
+
+## Optional Detailed Play Cards
+
+### 10 sets of 4x Play Cards 
+
+Play Cards have a play on one side and a visual hint/diagram on the other
+
+### Offensive Play Summary Table
+
+| Set | Name | Play 1 (Run) | Play 2 (Run) | Play 3 (Pass) | Play 4 (Pass) | Range |
+|-----|------|-------------|-------------|--------------|--------------|-------|
+| 1 | I-Formation | Power Sweep (8) | Dive (4) | Play Action (10) | Deep Shot (15) | 5-20 |
+| 2 | Shotgun Spread | Jet Sweep (7) | Draw (5) | Quick Slant (6) | Four Verticals (14) | 5-18 |
+| 3 | Wishbone | Option Pitch (9) | FB Plunge (3) | Bootleg (8) | Flea Flicker (13) | 5-17 |
+| 4 | West Coast | Counter Trey (6) | Inside Zone (4) | Screen (7) | Post Route (12) | 5-16 |
+| 5 | Wildcat | Direct Snap (10) | Wildcat Dive (5) | Trick Pass (9) | Wildcat Bomb (15) | 6-19 |
+| 6 | Empty | QB Draw (8) | QB Sneak (2) | Crossing Routes (8) | Hail Mary (15) | 5-19 |
+| 7 | Pro Set | Toss Play (7) | Off Tackle (5) | TE Seam (11) | Go Route (14) | 5-18 |
+| 8 | Pistol | Read Option (9) | Power Run (6) | Roll Out (10) | Corner Route (13) | 6-17 |
+| 9 | Single Wing | Spinner (8) | Buck Lateral (4) | Jump Pass (7) | Statue of Liberty (12) | 5-16 |
+| 10 | Trips | Pitch Sweep (10) | Blast Run (5) | Flood Concept (9) | Wheel Route (14) | 6-18 |
+
+### Defensive Play Summary Table
+
+
+### Color Cards
+
+- Red - Pass
+
+- Black - Run
+
+
+### Game Board
+
+
+
+
 2 Piece of Scratch Paper
 2 Pencils
